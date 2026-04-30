@@ -148,3 +148,42 @@ input[type="checkbox"] {
   background: #fef2f2;
   color: var(--danger);
 }
+
+.about {
+  margin-top: 12px;
+  padding: 9px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.about h2 {
+  margin: 0 0 5px;
+  color: #334155;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.about p {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.links a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

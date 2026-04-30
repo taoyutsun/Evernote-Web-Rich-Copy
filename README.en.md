@@ -13,12 +13,13 @@ If you use Evernote Desktop, see [Evernote Desktop Rich Copy](https://github.com
 - Tries to embed note images as `data:` URLs so Word and Outlook can paste them without needing Evernote session access.
 - Cleans obvious Evernote page chrome such as scripts, hidden UI, sidebars, toolbars, iframes, and event attributes.
 - Provides toolbar popup buttons and keyboard shortcuts.
+- Shows author and GitHub project links at the bottom of the popup.
 - Runs locally in the browser. It does not send note content to any server.
 
 ## Install
 
 1. Go to [GitHub Releases](https://github.com/taoyutsun/Evernote-Web-Rich-Copy/releases/latest).
-2. Download the latest ZIP file, for example `Evernote-Web-Rich-Copy-v0.1.0.zip`.
+2. Download the latest ZIP file, for example `Evernote-Web-Rich-Copy-v0.1.1.zip`.
 3. Extract the ZIP file into a stable folder. If you move or delete that folder later, the unpacked extension in the browser will stop working.
 4. Open Chrome or Edge.
 5. Go to `chrome://extensions` or `edge://extensions`.
@@ -37,6 +38,8 @@ git clone https://github.com/taoyutsun/Evernote-Web-Rich-Copy.git
 ```
 
 When using Git, choose the cloned project folder that contains `manifest.json` for Load unpacked.
+
+The bottom of the extension popup includes author and GitHub project links for source reference and updates.
 
 ## Usage
 

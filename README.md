@@ -13,12 +13,13 @@ Evernote Web Rich Copy 是一個 Chrome / Edge 擴充功能，可以把 Evernote
 - 嘗試將筆記圖片轉成 `data:` URL，讓 Word / Outlook 貼上時不需要再讀取 Evernote 登入狀態。
 - 清理 Evernote 頁面 UI，例如 script、隱藏元素、側邊欄、工具列、iframe 與事件屬性。
 - 提供擴充功能 popup 按鈕與快捷鍵。
+- popup 底部提供作者與 GitHub 專案連結。
 - 所有處理都在瀏覽器本機執行，不會把筆記內容傳送到外部伺服器。
 
 ## 安裝
 
 1. 前往 [GitHub Releases](https://github.com/taoyutsun/Evernote-Web-Rich-Copy/releases/latest)。
-2. 下載最新版 ZIP 檔，例如 `Evernote-Web-Rich-Copy-v0.1.0.zip`。
+2. 下載最新版 ZIP 檔，例如 `Evernote-Web-Rich-Copy-v0.1.1.zip`。
 3. 將 ZIP 解壓縮到一個固定資料夾。之後如果移動或刪除這個資料夾，瀏覽器中的 unpacked extension 也會失效。
 4. 開啟 Chrome 或 Edge。
 5. 前往 `chrome://extensions` 或 `edge://extensions`。
@@ -37,6 +38,8 @@ git clone https://github.com/taoyutsun/Evernote-Web-Rich-Copy.git
 ```
 
 使用 Git 方式時，Load unpacked 請選擇 clone 後包含 `manifest.json` 的專案資料夾。
+
+擴充功能 popup 底部有作者與 GitHub 專案連結，方便查看來源與後續更新。
 
 ## 使用方式
 
