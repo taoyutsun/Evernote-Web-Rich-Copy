@@ -68,13 +68,40 @@ p {
 }
 
 button {
-  min-height: 34px;
+  display: flex;
+  min-height: 46px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
   border: 1px solid var(--border);
   border-radius: 7px;
   background: var(--panel);
   color: var(--text);
-  font: 600 13px/1 Arial, "Microsoft JhengHei", sans-serif;
+  font: 600 13px/1.1 Arial, "Microsoft JhengHei", sans-serif;
   cursor: pointer;
+}
+
+.button-title {
+  display: block;
+}
+
+kbd {
+  display: inline-block;
+  min-width: 82px;
+  padding: 2px 5px;
+  border: 1px solid rgba(100, 116, 139, .45);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .72);
+  color: var(--muted);
+  font: 600 10px/1 Arial, "Microsoft JhengHei", sans-serif;
+  letter-spacing: 0;
+}
+
+button.primary kbd {
+  border-color: rgba(255, 255, 255, .42);
+  background: rgba(255, 255, 255, .14);
+  color: rgba(255, 255, 255, .88);
 }
 
 button:hover:not(:disabled) {
