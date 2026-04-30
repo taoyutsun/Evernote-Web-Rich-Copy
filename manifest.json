@@ -1,0 +1,63 @@
+{
+  "manifest_version": 3,
+  "name": "Evernote Web Rich Copy",
+  "version": "0.1.0",
+  "description": "Copy selected Evernote Web content as rich HTML for Word, Outlook, Excel, and other editors.",
+  "minimum_chrome_version": "100",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Evernote Web Rich Copy",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://evernote.com/*",
+    "https://*.evernote.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://evernote.com/*",
+        "https://*.evernote.com/*"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "commands": {
+    "copy-rich-selection": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      },
+      "description": "Copy selected Evernote content as rich HTML"
+    },
+    "copy-active-note": {
+      "suggested_key": {
+        "default": "Alt+Shift+N"
+      },
+      "description": "Copy the active Evernote note as rich HTML"
+    }
+  }
+}

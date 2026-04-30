@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evernote Web Rich Copy</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div class="mark">ER</div>
+        <div>
+          <h1>Evernote Web Rich Copy</h1>
+          <p id="pageState">Checking current tab...</p>
+        </div>
+      </header>
+
+      <section class="actions" aria-label="Copy actions">
+        <button id="copySelection" class="primary" type="button">Copy Selection</button>
+        <button id="copyNote" type="button">Copy Active Note</button>
+      </section>
+
+      <section class="options" aria-label="Copy options">
+        <label>
+          <input id="embedImages" type="checkbox">
+          <span>Embed images</span>
+        </label>
+        <label>
+          <input id="cleanHtml" type="checkbox">
+          <span>Clean page chrome</span>
+        </label>
+      </section>
+
+      <section id="result" class="result" aria-live="polite"></section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
