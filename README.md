@@ -4,6 +4,8 @@
 
 Evernote Web Rich Copy 是一個 Chrome / Edge 擴充功能，可以把 Evernote Web 中選取的筆記內容複製成 Rich HTML，方便貼到 Word、Outlook、Excel、Google Docs 或其他支援富文字的編輯器，並盡量保留格式與圖片。
 
+如果你使用的是 Evernote Desktop，請參考 [Evernote Desktop Rich Copy](https://github.com/taoyutsun/Evernote-Desktop-Rich-Copy)。
+
 ## 功能
 
 - 將 Evernote Web 目前選取的內容複製為 `text/html` 與 `text/plain`。
@@ -13,7 +15,7 @@ Evernote Web Rich Copy 是一個 Chrome / Edge 擴充功能，可以把 Evernote
 - 提供擴充功能 popup 按鈕與快捷鍵。
 - 所有處理都在瀏覽器本機執行，不會把筆記內容傳送到外部伺服器。
 
-## 安裝與測試
+## 安裝
 
 1. 前往 [GitHub Releases](https://github.com/taoyutsun/Evernote-Web-Rich-Copy/releases/latest)。
 2. 下載最新版 ZIP 檔，例如 `Evernote-Web-Rich-Copy-v0.1.0.zip`。

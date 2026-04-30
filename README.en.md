@@ -4,6 +4,8 @@
 
 Evernote Web Rich Copy is a Chrome / Edge extension that copies selected Evernote Web note content as rich HTML so it can be pasted into Word, Outlook, Excel, Google Docs, and other rich-text editors with formatting and images preserved as much as the browser allows.
 
+If you use Evernote Desktop, see [Evernote Desktop Rich Copy](https://github.com/taoyutsun/Evernote-Desktop-Rich-Copy).
+
 ## Features
 
 - Copies the current Evernote Web selection as `text/html` and `text/plain`.
@@ -13,7 +15,7 @@ Evernote Web Rich Copy is a Chrome / Edge extension that copies selected Evernot
 - Provides toolbar popup buttons and keyboard shortcuts.
 - Runs locally in the browser. It does not send note content to any server.
 
-## Install And Test
+## Install
 
 1. Go to [GitHub Releases](https://github.com/taoyutsun/Evernote-Web-Rich-Copy/releases/latest).
 2. Download the latest ZIP file, for example `Evernote-Web-Rich-Copy-v0.1.0.zip`.
