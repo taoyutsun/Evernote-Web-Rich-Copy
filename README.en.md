@@ -19,7 +19,7 @@ If you use Evernote Desktop, see [Evernote Desktop Rich Copy](https://github.com
 ## Install
 
 1. Go to [GitHub Releases](https://github.com/taoyutsun/Evernote-Web-Rich-Copy/releases/latest).
-2. Download the latest ZIP file, for example `Evernote-Web-Rich-Copy-v0.1.1.zip`.
+2. Download the latest ZIP file, for example `Evernote-Web-Rich-Copy-v0.1.0.zip`.
 3. Extract the ZIP file into a stable folder. If you move or delete that folder later, the unpacked extension in the browser will stop working.
 4. Open Chrome or Edge.
 5. Go to `chrome://extensions` or `edge://extensions`.

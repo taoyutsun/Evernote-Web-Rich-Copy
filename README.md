@@ -19,7 +19,7 @@ Evernote Web Rich Copy 是一個 Chrome / Edge 擴充功能，可以把 Evernote
 ## 安裝
 
 1. 前往 [GitHub Releases](https://github.com/taoyutsun/Evernote-Web-Rich-Copy/releases/latest)。
-2. 下載最新版 ZIP 檔，例如 `Evernote-Web-Rich-Copy-v0.1.1.zip`。
+2. 下載最新版 ZIP 檔，例如 `Evernote-Web-Rich-Copy-v0.1.0.zip`。
 3. 將 ZIP 解壓縮到一個固定資料夾。之後如果移動或刪除這個資料夾，瀏覽器中的 unpacked extension 也會失效。
 4. 開啟 Chrome 或 Edge。
 5. 前往 `chrome://extensions` 或 `edge://extensions`。

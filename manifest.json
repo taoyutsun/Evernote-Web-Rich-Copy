@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Evernote Web Rich Copy",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "Copy selected Evernote Web content as rich HTML for Word, Outlook, Excel, and other editors.",
   "minimum_chrome_version": "100",
   "icons": {
